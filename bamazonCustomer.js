@@ -27,7 +27,7 @@ function showAll(){
 
     inquirer.prompt([
       {
-        type:"rawlist",
+        type:"list",
         name: "buyOrGo",
         message: "Are you ready to checkout?",
         choices: ["Yes", "Didnt see anything I want!"],
@@ -80,7 +80,6 @@ function checkout(){
     });
   })
 }
-
 
 
 
