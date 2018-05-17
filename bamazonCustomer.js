@@ -73,6 +73,14 @@ function checkout(){
         if (error) throw error
         console.log(`Updated Inventory for ${product.product_name} is ${updatedQty} units`)
         console.log(`Your total is $ ${product.price * answers.quantity}`)
+        
+        
+        const updateSales = parseInt(product.product_sales) + (parseInt(answers.quantity) * parseInt(product.price))
+        
+        connection.query(`UPDATE products SET products.product_sales = ${updateSales} WHERE products.item_id = ${parseInt(answers.id)}`, function(error, results){
+          if (error) throw error
+
+        })
       })
 
 
