@@ -35,5 +35,5 @@ inquirer.prompt([
 })
 
 function viewDept(){
-  connection.query('')
+  connection.query('SELECT ')
 }
