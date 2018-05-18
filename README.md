@@ -1,5 +1,7 @@
 # MySQL-storefront
 
+Run node bamazonCustomer.js in console
+
 View store products. And checkout. 
 ![pic1](./sqlpics/num1.png)
 
