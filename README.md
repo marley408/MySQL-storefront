@@ -1,16 +1,18 @@
 # MySQL-storefront
 
-Run node bamazonCustomer.js in console
+This app takes in orders from customers and depletes stock from the store's inventory.
 
-View store products. And checkout. 
+1) Run node bamazonCustomer.js in console
+
+2) View store products. And choose "Yes" to checkout. 
 ![pic1](./sqlpics/num1.png)
 
-Enter item ID and quantity.
+3) Enter item ID and quantity.
 ![pic1](./sqlpics/num3.png)
 
-View total.
+4) View total.
 ![pic1](./sqlpics/num4.png)
 
-
-If you dont see anything you want to buy choose to leave store.
+-OR-
+If you didnt see anything you want to buy, choose the option "Didnt see anything I want!" to leave store.
 ![pic1](./sqlpics/num6.png)
